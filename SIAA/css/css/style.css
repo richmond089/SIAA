@@ -1,0 +1,170 @@
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-black{
+    color: black;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #45637d;
+    text-decoration: none;
+}
+a:hover{
+    color: #263746;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #45637d;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #263746;
+}
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+
+fieldset{
+    border: 2px solid black;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+.error{
+    padding: 2%;
+    color: red;
+}
+.success{
+    padding: 2%;
+    color: green;
+}
+
+
+/* CSS for navbar section */
+
+.logo{
+    width: 10%;
+    float: left;
+}
+.menu{
+    line-height: 60px;
+    font-size: 1.2rem;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+/* CSS for Login Button in Menu */
+.menu .login-button {
+    display: inline-block;
+    padding: 5px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.menu .login-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* CSS for Food Search Bar */
+
+.food-search {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.food-search input[type="search"] {
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.food-search input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.food-search input[type="submit"]:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
